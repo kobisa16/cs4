@@ -8,6 +8,11 @@ namespace ConsoleApp1
 {
     internal class Dog : Animal
     {
+        public Dog(int age, string name): base (age, name)
+        {
+            this.Age = age; 
+            this.Name = name;
+        }
 
         public void Bark()
         {

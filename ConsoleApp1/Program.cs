@@ -1,4 +1,6 @@
-﻿namespace ConsoleApp1
+﻿using System.Runtime.CompilerServices;
+
+namespace ConsoleApp1
 {
     internal class Program
     {
@@ -6,24 +8,33 @@
         {
 
 
-            Animal[] animals = new Animal[] { };
+            Animal[] animals = new Animal[] 
+            {new Dog (16,"Rex"),
+            new Cat (5,"Whiskers")
+            };
 
 
 
-            static void Print (Animal[] animals)
+
+
+            static void Print(Animal[] animals)
             {
                 foreach (var item in animals)
                 {
-                    animals.ToString();
+                    Console.WriteLine(item.ToString());
+                    if (item is Dog)
+                    {
+                        ((Dog)item).Bark();
+                    }
+                    else if (item is Cat)
+                    {
+                        ((Cat)item).Purr();
 
+                    }
                 }
 
-                
-
-                
-
-
             }
+
         }
     }
 }
