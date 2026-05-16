@@ -5,6 +5,8 @@ VisualStudioVersion = 17.14.37216.2 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1.csproj", "{CFFA4359-34C0-4636-B24C-94837BF9E534}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "trgil2", "..\trgil2\trgil2.csproj", "{9ED6334F-CC22-48CF-8B97-780CAA0CD999}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{CFFA4359-34C0-4636-B24C-94837BF9E534}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CFFA4359-34C0-4636-B24C-94837BF9E534}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CFFA4359-34C0-4636-B24C-94837BF9E534}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9ED6334F-CC22-48CF-8B97-780CAA0CD999}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9ED6334F-CC22-48CF-8B97-780CAA0CD999}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9ED6334F-CC22-48CF-8B97-780CAA0CD999}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9ED6334F-CC22-48CF-8B97-780CAA0CD999}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
