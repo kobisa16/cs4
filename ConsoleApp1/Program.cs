@@ -7,34 +7,35 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
 
-
-            Animal[] animals = new Animal[] 
-            {new Dog (16,"Rex"),
-            new Cat (5,"Whiskers")
+            Animal[] animals = new Animal[]
+            {
+            
             };
 
+            
+            Print(animals);
+        }
 
 
-
-
-            static void Print(Animal[] animals)
+        static void Print(Animal[] animals)
+        {
+            foreach (var item in animals)
             {
-                foreach (var item in animals)
+                Console.WriteLine(item.ToString());
+                if (item is Dog)
                 {
-                    Console.WriteLine(item.ToString());
-                    if (item is Dog)
-                    {
-                        ((Dog)item).Bark();
-                    }
-                    else if (item is Cat)
-                    {
-                        ((Cat)item).Purr();
-
-                    }
+                    ((Dog)item).Bark();
                 }
+                else if (item is Cat)
+                {
+                    ((Cat)item).Purr();
 
+                }
             }
 
+
+
         }
+
     }
 }

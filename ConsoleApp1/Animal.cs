@@ -18,7 +18,7 @@ namespace ConsoleApp1
 
         public override string ToString()
         {
-            return ($"Animal: {Name}, Age: {Age}");
+            return ($"Animal {Name}, Age: {Age}");
         }
 
     }
